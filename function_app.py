@@ -17,10 +17,10 @@ ALLOWED_ORIGINS = {
 
 CONNECTION_STRING = (
     "DRIVER={SQL Server};"
-    f"SERVER={os.environ['SQL_SERVER']};"
-    f"DATABASE={os.environ['SQL_DATABASE']};"
-    f"UID={os.environ['SQL_USERNAME']};"
-    f"PWD={os.environ['SQL_PASSWORD']};"
+    "SERVER=cityuweek8thao.database.windows.net;"
+    "DATABASE=;"
+    "UID=;"
+    "PWD=;"
     "TrustServerCertificate=no;"
     "Connection Timeout=30;"
 )
