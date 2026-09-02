@@ -31,10 +31,10 @@ class FunctionAppTests(unittest.TestCase):
 
         connection_string = function_app.get_connection_string()
 
-        self.assertIn("SERVER=server.database.windows.net", connection_string)
-        self.assertIn("DATABASE=appdb", connection_string)
-        self.assertIn("UID=appuser", connection_string)
-        self.assertIn("PWD=secret", connection_string)
+        self.assertIn("SERVER=cityuweek8thao.database.windows.net", connection_string)
+        self.assertIn("DATABASE=week8-thao", connection_string)
+        self.assertIn("UID=thao-admin", connection_string)
+        self.assertIn("PWD=Buihoangco123.", connection_string)
 
     def test_get_connection_string_requires_all_values(self):
         for key in [
