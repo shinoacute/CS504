@@ -18,9 +18,9 @@ ALLOWED_ORIGINS = {
 CONNECTION_STRING = (
     "DRIVER={SQL Server};"
     "SERVER=cityuweek8thao.database.windows.net;"
-    "DATABASE=;"
-    "UID=;"
-    "PWD=;"
+    "DATABASE=week8-thao;"
+    "UID=thao-admin;"
+    "PWD=Buihoangco123.;"
     "TrustServerCertificate=no;"
     "Connection Timeout=30;"
 )
